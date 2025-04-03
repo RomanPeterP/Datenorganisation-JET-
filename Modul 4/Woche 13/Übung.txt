@@ -1,0 +1,19 @@
+Protokollierung von Statusänderungen einer Bestellung
+
+Erstelle einen AFTER UPDATE-Trigger auf Bestellung, der eine Änderung des BestellungStatusId erkennt und diese in der Log-Tabelle speichert.
+
+Hinweis:
+
+Der Log-Eintrag soll in Nachricht folgendes Format haben:
+„Bestellung X: Status geändert von Y auf Z“
+
+LogTypId kann auf einen passenden Wert (z. B. für Statusänderungen) gesetzt werden.
+
+
+
+
+Test:
+
+Ändere den BestellungStatusId einer Bestellung und überprüfe, ob ein passender Log-Eintrag erzeugt wurde.
+
+Ändere den Status erneut und kontrolliere, ob der Log-Eintrag korrekt ist.
