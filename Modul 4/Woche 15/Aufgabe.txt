@@ -1,0 +1,2 @@
+Aufgabe
+Entwickeln Sie eine minimale Version einer Datenbank für ein Restaurant-Tischreservierungssystem. Verbinden Sie die Tabellen mit Beziehungen und achten Sie auf Setzung von realistischen Feldlängen und NOT-NULL-Attributen. 
